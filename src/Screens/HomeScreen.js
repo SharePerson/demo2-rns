@@ -10,7 +10,7 @@ export default class HomeScreen extends Component {
           onPress={() => this.props.navigation.navigate('RNSwiperClassic')}
         />
         <Button
-          title="React Native Swiper Plugin"
+          title="Using react-native-swiper Plugin"
           onPress={() => this.props.navigation.navigate('RNSwiper')}
         />
       </View>
