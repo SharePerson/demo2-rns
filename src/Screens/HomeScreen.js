@@ -6,12 +6,16 @@ export default class HomeScreen extends Component {
     return (
       <View style={styles.mainContainer}>
         <Button
-          title="React Native Swiper Classic"
+          title="Swipe using FlatList"
           onPress={() => this.props.navigation.navigate('RNSwiperClassic')}
         />
         <Button
           title="Using react-native-swiper Plugin"
           onPress={() => this.props.navigation.navigate('RNSwiper')}
+        />
+        <Button
+          title="Using react-native-swipe-image Plugin"
+          onPress={() => this.props.navigation.navigate('RNSwipeImage')}
         />
       </View>
     );
