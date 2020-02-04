@@ -26,7 +26,7 @@ export default class ClassicRNSwiperScreen extends Component {
           horizontal
           pagingEnabled
           data={images}
-          style={{width: width}}
+          style={styles.flatlist}
           keyExtractor={image => image.id}
           showsHorizontalScrollIndicator={false}
           renderItem={({item}) => {
@@ -46,6 +46,7 @@ class StyleSheetFactory {
   static getSheet({width}) {
     return StyleSheet.create({
       mainContainer: {flex: 1},
+      flatlist: {width: width},
       imageContainer: {flex: 1, padding: 10},
       image: {height: 300, width: width - 20, borderRadius: 10},
     });
