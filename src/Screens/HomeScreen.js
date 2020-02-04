@@ -17,6 +17,10 @@ export default class HomeScreen extends Component {
           title="Using react-native-swipe-image Plugin"
           onPress={() => this.props.navigation.navigate('RNSwipeImage')}
         />
+        <Button
+          title="Using react-native-swipeable Plugin"
+          onPress={() => this.props.navigation.navigate('RNSwipeable')}
+        />
       </View>
     );
   }

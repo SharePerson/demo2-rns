@@ -5,6 +5,7 @@ import HomeScreen from './src/Screens/HomeScreen';
 import ReactNativeSwiper from './src/Screens/Plugins/ReactNativeSwiper';
 import ClassicRNSwiperScreen from './src/Screens/Classic/ClassicRNSwiperScreen';
 import ReactNativeSwipeImage from './src/Screens/Plugins/ReactNativeSwipeImage';
+import ReactNativeSwipeable from './src/Screens/Plugins/ReactNativeSwipeable';
 
 const navigator = createStackNavigator(
   {
@@ -12,6 +13,7 @@ const navigator = createStackNavigator(
     RNSwiper: ReactNativeSwiper,
     RNSwiperClassic: ClassicRNSwiperScreen,
     RNSwipeImage: ReactNativeSwipeImage,
+    RNSwipeable: ReactNativeSwipeable,
   },
   {
     initialRouteName: 'Home',
