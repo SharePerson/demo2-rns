@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
 /* eslint-disable react/no-did-mount-set-state */
+import React, {Component} from 'react';
 import {View, Image, StyleSheet, Text} from 'react-native';
 import Swiper from 'react-native-swiper';
 
