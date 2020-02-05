@@ -5569,6 +5569,13 @@ react-native-swipe-image@^1.1.0:
   resolved "https://registry.yarnpkg.com/react-native-swipe-image/-/react-native-swipe-image-1.1.0.tgz#3e4d3b2bd1d9b3fd51c46c112f81d7d165799dd4"
   integrity sha512-t2T4yAqA+3Dhf8GNAOvLAb0RBVXzwW1E/hHD/zde7NsGIWaP+kYZM1XjyTA1itSp2F2y4hwQ01vOgiydLthPyg==
 
+react-native-swipeable@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-swipeable/-/react-native-swipeable-0.6.0.tgz#0fe551330018b83c754d27f505709a594f554370"
+  integrity sha512-OJUmOtPAZ3s6OHdbmGdGBq3oNZaUFOV81UMQfO2fvIF2cUOMbjUKQCRU7EhijEyufiaMAlSu/VguCRAdLRLk3w==
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-swiper@^1.5.14:
   version "1.5.14"
   resolved "https://registry.yarnpkg.com/react-native-swiper/-/react-native-swiper-1.5.14.tgz#1c6f949ca377186300f972bb0f30d24062c899aa"

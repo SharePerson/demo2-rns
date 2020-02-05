@@ -24,7 +24,6 @@ export default class ReactNativeSwipeImage extends Component {
   }
 
   render() {
-    console.log('images', this.state.images);
     return (
       <View style={styles.mainContainer}>
         <Swiper

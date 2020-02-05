@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "name": "John Smith",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/75.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Lance Chapman",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+        "id": "3",
+        "imageUrl": "Kevin Reed",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+        "id": "4",
+        "imageUrl": "Oliver Gain",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/73.jpg"
+    },
+    {
+        "id": "5",
+        "imageUrl": "Max Hugh",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/68.jpg"
+    }
+]
