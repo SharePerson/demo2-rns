@@ -21,6 +21,10 @@ export default class HomeScreen extends Component {
           title="Using react-native-swipeable Plugin"
           onPress={() => this.props.navigation.navigate('RNSwipeable')}
         />
+        <Button
+          title="Using react-native-swipeout Plugin"
+          onPress={() => this.props.navigation.navigate('RNSwipeListView')}
+        />
       </View>
     );
   }
