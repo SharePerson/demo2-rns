@@ -11,17 +11,17 @@
     },
     {
         "id": "3",
-        "imageUrl": "Kevin Reed",
+        "name": "Kevin Reed",
         "avatarUrl": "https://randomuser.me/api/portraits/men/6.jpg"
     },
     {
         "id": "4",
-        "imageUrl": "Oliver Gain",
+        "name": "Oliver Gain",
         "avatarUrl": "https://randomuser.me/api/portraits/men/73.jpg"
     },
     {
         "id": "5",
-        "imageUrl": "Max Hugh",
+        "name": "Max Hugh",
         "avatarUrl": "https://randomuser.me/api/portraits/men/68.jpg"
     }
 ]
