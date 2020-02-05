@@ -12,15 +12,23 @@ export default class ReactNativeSwipeable extends Component {
     title: 'React Native Swipeable',
   };
 
+  deletePerson(personId) {
+    let {persons} = this.state;
+    persons = persons.filter(person => person.id !== personId);
+    this.setState({...this.state, persons});
+  }
+
   componentDidMount() {
     const persons = getPersons();
     this.setState({...this.state, persons});
   }
 
-  renderRightButtons() {
+  renderRightButtons(personId) {
     return [
       <View style={styles.deleteContainer}>
-        <TouchableOpacity style={styles.deleteButton}>
+        <TouchableOpacity
+          style={styles.deleteButton}
+          onPress={() => this.deletePerson(personId)}>
           <Text style={styles.deleteText}>Delete</Text>
         </TouchableOpacity>
       </View>,
@@ -33,7 +41,7 @@ export default class ReactNativeSwipeable extends Component {
         return (
           <View key={person.id} style={styles.itemContainer}>
             <Swipeable
-              rightButtons={this.renderRightButtons()}
+              rightButtons={this.renderRightButtons(person.id)}
               rightButtonWidth={75}>
               <View style={styles.swipeable}>
                 <Image style={styles.avatar} source={{uri: person.avatarUrl}} />
@@ -69,7 +77,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   swipeable: {
-    paddingVertical: 10,
+    paddingVertical: 5,
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 15,
